@@ -36,6 +36,7 @@
 }
 .main-box:hover{
     background-color: #3066ed;
+    color: #fff;
 }
 .main-box:hover .baton{
     background-color: #fff;
