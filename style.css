@@ -69,7 +69,7 @@
     background: linear-gradient(rgba(0, 0, 255, 0.404),rgb(0, 0, 255, 0.404)), url(./img/free-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 100px;
+    padding: 130px;
     color: white;
 }
 .batton:hover{
