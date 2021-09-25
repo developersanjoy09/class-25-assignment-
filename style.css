@@ -71,16 +71,36 @@
     padding: 100px;
     color: white;
 }
+.batton:hover{
+    color: #ffff !important;
+    border: 1px solid #3066ed;
+}
 .batton{
     padding: 10px 15px;
     background-color: #fff;
     border-radius: 30px;
     text-decoration: none;
+    border: 1px solid #fff;
     font-weight: bold;
     color: #3066ed;
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+.batton::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 0;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: -1;
+}
+.batton:hover::after{
+    width: 100%;
 }
 .last{
     background-color: #f8f9fa;
